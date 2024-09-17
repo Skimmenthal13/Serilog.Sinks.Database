@@ -1,3 +1,4 @@
+
 # Serilog.Sinks.Database
 Serilog sink that writes in one of these five databases :
 | Database   | Library                    | Example of connection string                                                                                                                                                            |
