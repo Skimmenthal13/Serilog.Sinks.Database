@@ -1,5 +1,5 @@
 # Serilog.Sinks.Database
-Serilog sink that writes in one of these five databases 
+Serilog sink that writes in one of these five databases :
 | Database   | Library                    | Example of connection string                                                                                                                                                            |
 | ---------- | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | SqlServer  | System.Data.SqlClient      | const string sqlConnectionString = "Data Source=NBK-437;Persist Security Info=True;Initial Catalog=test;Integrated Security=SSPI;";                                                     |
