@@ -12,10 +12,25 @@
     <PackageIcon>icon.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/Skimmenthal13/Serilog.Sinks.Database</RepositoryUrl>
-    <PackageTags>Serilog:serilog-sink;Sink;Log;Logging;SqlServer;Oracle;PostgreSql;MySql;Sqlite;Database</PackageTags>
-    <Version>1.0.0.0</Version>
+    <PackageTags>Serilog;serilog-sink;Sink;Log;Logging;SqlServer;Oracle;PostgreSql;MySql;Sqlite;Database</PackageTags>
+    <Version>1.0.0.1</Version>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="ASql" Version="2.5.0" />
