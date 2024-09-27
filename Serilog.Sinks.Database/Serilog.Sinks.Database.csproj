@@ -13,8 +13,10 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/Skimmenthal13/Serilog.Sinks.Database</RepositoryUrl>
     <PackageTags>Serilog;serilog-sink;Sink;Log;Logging;SqlServer;Oracle;PostgreSql;MySql;Sqlite;Database</PackageTags>
-    <Version>1.0.0.1</Version>
+    <Version>2.0.0</Version>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <AssemblyVersion>2.0.0</AssemblyVersion>
+    <FileVersion>2.0.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -33,7 +35,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="ASql" Version="2.5.0" />
+    <PackageReference Include="ASql" Version="3.0.0" />
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="Serilog" Version="4.0.1" />
